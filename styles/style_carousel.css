@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+* {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+body {
+    background-color: #FDFDFD;
+    margin: 75px;
+}
+
+h2 {
+    font-size: 18px;
+    color: #637C95;
+}
+
+p {
+    color: #6D6D6D;
+}
+
+p.nomeAnimal, .descricaoAnimal {
+    text-align: center;
+    color: #151515;
+    font-size: 18px;
+}
+
+.rounded-rectangle {
+    border-radius: 15px;
+    border: 2px solid rgba(254, 254, 254, 0);
+    width: 100%;
+    height: 100%;
+    
+  }
+
+
+.rounded-rectangle:hover {
+    border-radius: 15px;
+    border: 2px solid #FEFEFE;
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.15);
+}
+
+.adopt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradiente {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+button {
+    border: none;
+    text-decoration: none;
+}
+
+button.adopt {
+    background-color: #304057;
+    color: white;
+    font-size: 22px;
+    width: 197px;
+    height: 53px;
+    border-radius: 10px;
+    opacity: 0;
+}
+
+button.controle-carrossel {
+    background: none;
+}
+
+.days-waiting-text {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+
+}
+.col:hover button.adopt{
+    opacity: 1;
+}
+
+.col:hover .gradiente{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.2));
+}
+
+.col:hover .days-waiting-text {
+    color: #151515;
+}
