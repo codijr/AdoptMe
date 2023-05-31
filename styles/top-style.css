@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+body{
+    font-family: 'Sawarabi Gothic', sans-serif;
+    
+}
+.background{
+    background: linear-gradient(180deg, rgba(196, 222, 255, 0.33) 0%, rgba(216, 216, 216, 0) 54.69%, rgba(190, 220, 255, 0.215644) 100%);
+
+}
+.link_acesso{
+    color: #304057;
+}
+.patinha{
+    width: 35px;
+}
+.texto_corpo{
+    text-align: justify;
+}
+.btn-color{
+    color: #304057;
+}
+.link{
+    text-decoration: none;
+}
