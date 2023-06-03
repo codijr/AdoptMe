@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+
+* {
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+
+.conteiner-carrossel {
+  /* background-color: #FDFDFD; */
+    background-color: #FDFDFD;
+    padding-bottom: 5em;
+    margin: 75px;
+  }
+
+  .carousel-title {
+    font-size: 40px;
+    color: #151515;
+  }
+
+  .carousel-p {
+    font-size: 20px;
+    color: #6D6D6D;
+  }
+  
+  .card {
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  .card:hover {
+    box-shadow: 2px 0px 4px rgba(0, 0, 0, 0.15);
+  }
+  
+  .gradiente {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, black, rgba(255, 255, 255, 0));
+    position: absolute;
+    border-radius: 10px;
+    opacity: 0.8;
+  }
+  
+  .days-waiting-text {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+  
+  button.adopt {
+    border: none;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #304057;
+    color: white;
+    font-size: 22px;
+    width: 197px;
+    height: 53px;
+    border-radius: 10px;
+    opacity: 0;
+  }
+  
+  .card:hover button.adopt{
+    opacity: 1;
+  }
+  
+  .card:hover .gradiente{
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.74), rgba(255, 255, 255, 0.2));
+  }
+  
+  .card:hover .days-waiting-text {
+    color: #151515;
+  }
+  
+  button.controle-carrossel {
+    border: none;
+    text-decoration: none;
+    background: none;
+  }
+  
+  @media screen and (min-width:990px) {
+    .cards-wrapper {
+        display: flex;
+    }
+    
+    .card {
+        margin: 0.5em;
+        width: calc(100%/4);
+    }
+    
+  }
+  
+  @media screen and (max-width:990px) {
+    body {
+        margin: 50px;
+    }
+  
+    .card:not(:first-child){
+        display: none;
+    }
+  
+    .card {
+        margin: 0.5em;
+    }
+  }
