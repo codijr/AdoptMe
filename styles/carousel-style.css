@@ -108,4 +108,7 @@
     .card {
         margin: 0.5em;
     }
+    .card:first-child {
+      margin-left: 0; /* Remova a margem esquerda para o primeiro filho */
+    }
   }
