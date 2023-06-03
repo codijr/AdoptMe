@@ -13,6 +13,7 @@ body{
 }
 .patinha{
     width: 35px;
+    
 }
 .texto_corpo{
     text-align: justify;
@@ -22,4 +23,24 @@ body{
 }
 .link{
     text-decoration: none;
+}
+.imagens_footer{
+    width: 50px;
+}
+.alinhamento{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img_dogs{
+    width: 298px;
+}
+.img_dogs1{
+    width: 367px;
+}
+.img_dogs2{
+    width: 281.09px;
+}
+.img_dogs3{
+    width: 300.56px;
 }
