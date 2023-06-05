@@ -6,199 +6,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-  <link rel="stylesheet" href="./styles/top-style.css">
-  <link rel="stylesheet" href="./styles/carousel-style.css">
-  <link rel="stylesheet" href="./styles/bottom-style.css">
-  <link rel="stylesheet" href="./styles/counter-style.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Adoptme</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
 <body>
-
+<!--Topo-->
   <div class="background">
     <header>
-  <nav class="navbar navbar-expand-lg px-5">
-      <div class="container-fluid">
+      <!--Nav-->
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container">
           <div class>
-              <a class="navbar-brand fs-5nd-flex mx-5" href="#">
-                  <span class="fs-">Adoptime</span>
-                  <img class = "pb-2" src="./svg/patinha.svg" alt="patinha">
-              </a>
+            <a class="navbar-brand fs-5nd-flex mx-5" href="#">
+              <span id="logoAdopt">Adoptme</span>
+              <img class="pb-2" src="./img/patinha.svg" alt="patinha">
+            </a>
           </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav px-5 p-3 mb-2 ms-5 mb-lg-0">
-            <li class="nav-item mx-3">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#">Comunity</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#Adopt_me">Adoption</a>
-            </li>
-            <li class="nav-item mx-3">
-              <a class="nav-link" href="#Stories">Stories with pet</a>
-            </li>
-            <li class="nav-item mx-3 pe-5 ">
-              <a class="nav-link" href="#Forum">FAQ</a>
-            </li>
-            <li class="nav-item ms-3 espacamento">
-              <img src="./svg/lupa.svg" alt="lupa" class="lupa">
-              <a href="#" class="ps-3 pt-2 link-offset-2 link-underline link-underline-opacity-0 link_acesso">Sign in</a>
-            </li>     
-          </ul>           
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item mx-3"id="navItens">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-3" id="navItens">
+                <a class="nav-link" href="#">Comunity</a>
+              </li>
+              <li class="nav-item mx-3" id="navItens">
+                <a class="nav-link" href="#Adopt_me">Adoption</a>
+              </li>
+              <li class="nav-item mx-3" id="navItens">
+                <a class="nav-link" href="#Stories">Stories with pet</a>
+              </li>
+              <li class="nav-item mx-3 pe-5" id="navItens">
+                <a class="nav-link" href="#Forum">FAQ</a>
+              </li>
+              <li class="nav-item ms-3 espacamento">
+                <img src="./img/lupa.svg" alt="lupa" class="lupa">
+                <a href="#" class="ps-3 pt-2 link-offset-2 link-underline link-underline-opacity-0 link_acesso">Sign in</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
     </header>
-    <main>
-      <div class="container text-center pt-5">
-        <div class="row pt-3 pb-5">
-          <div class="col-sm-5 col-12 pt-4">
-            <div class="row pb-5">
-              <div class="col-sm-10 col-12 col-xl-11 alinhamento">
-                <h1 class="display-5 tipografia pe-3 titulo"><strong> Let´s Choose and </strong></h1>
-                <img src="./svg/patinha.svg" alt="patinha" class="patinha pb-2">   
-            </div>
-            <div class="col-sm-10 col-12 col-xl-11">
-              <div class="row ">
-              <h1 class="display-5 pt-1 tipografia"><strong> Adopt your new Pet </strong></h1><br>
-              </div>
-            </div>
-              <div class="row pt-4">
-                <div class="col-9">
-                <p class="text-sm-left texto_corpo text-muted tipografia"> Adopt a pet, give them the best treatment, and you will feel
-                really happy of friendship with your pet. </p>
-                </div>
-              </div>
-              <div class="row pt-3">
-                <div class="col-sm-10 col-12">
-                  <div class="row pt-2">
-                    <div class="col">
-                  <a class="btn btn-dark" href="#" role="button">Adopt now</a>
-                    </div>
-                    <div class="col">
-                      <a class="btn" href="#" role="button"><h6>Donate for food</h6></a>
-                    </div>
-                  </div>
-              </div>
-            </div>
-            </div>
-            <div class="row pt-5">
-              <div class="col-sm-3 col-6 pt-2">
-                <p class="texto_footer"><small>SUPPORTED BY:</small></p>
-              </div>
-              </div>
-              <div class="row">
-                <div class="col-sm-7 col-12">
-                  <div class="row">
-                    <div class="col">
-                  <img src="./img/image 27.svg" alt="patrocinador" class="imagens_footer">
-                    </div>
-                    <div class="col pb-3">
-                      <img src="./img/image 28.svg" alt="patrocinador" class="imagens_footer">
-                    </div>
-                    <div class="col">
-                      <img src="./img/image 29.svg" alt="patrocinador" class="imagens_footer">
-                    </div>
-                    <div class="col">
-                      <img src="./img/image 30.svg" alt="patrocinador" class="imagens_footer">
-                    </div>
-                </div>
-                </div>
-              </div>
-          </div>
-          <div class="col-7">
-            <div class="row">
-              <div class="col-12">
-                <img src="./img/Mask group.svg" alt="imagens-dogs" class="img_dogs">
-                <img src="./img/Mask group-3.svg" alt="imagens-dogs" class="img_dogs1">
-              </div>
-            </div>
-            
-            <img src="./img/Mask group-1.svg" alt="imagens-dogs" class="img_dogs">
-            <img src="./img/Mask group-2.svg" alt="imagens-dogs" class="img_dogs">
-            
-          </div>
+    <!--Fim Nav-->
+
+    <!--textos topo-->
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-6">
+          <h1>Let's Choose and <img src="./img/patinha.svg" alt="Patinha"> <br> Adopt your new Pet</h1>
         </div>
+        <!--Imagem topo, Gatos e Cachorros-->
+        <div class="col-lg-6">
+          <img class="img-fluid" src="./img/cat&dog.png" alt="Cachorros e gatos">
         </div>
       </div>
-    </main>
 
-  </div>
-
-  <div class="container container-counter">
-    <div class="row">
-      <div class="col-lg-6">
-        <h3 id="missionChoose">our mission for pet</h3>
-        <h1 id="titleChose">Let's Choose and Adopt your <br> New Lovely Pet</h1>
+      <div class="row" >
+        <div class="col-lg-12" id="TextAndButton">
+          <p id="pTextTop">Adopt a pet, give them the best treatment, <br> and you will feel really happy of friendship <br> with your
+            pet.</p>
+            <button id="AdoptButtonTop">Adopt now</button>
+            <button id="DonateButton">Donate for food</button>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <p id="textAdoptsChoose">You need to see some pets in Adoptme. We have the friend that's you need to have. We
-          also have the equipment you need to take care of it.</p>
+      <!--Fim dos textos topo-->
+      
+      <!--Rodapé -->
+      <div class="row pt-5">
+        <div class="col-lg-6 col-sm-12 pb-3" id="Ongs">
+          <h3 id="suported">Supported by:</h3>
+          <img class="img-fluid ong" src="./img/image 27.svg" alt="Ong">
+          <img class="img-fluid ong" src="./img/image 28.svg" alt="Ong">
+          <img class="img-fluid ong" src="./img/image 29.svg" alt="Ong">
+          <img class="img-fluid ong" src="./img/image 30.svg" alt="Ong">
+        </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-6">
-        <img class="foto-counter" src="./img/adopt.png" class="img-fluid" alt="foto cachorro e gato">
+    <!--Fim Rodapé-->
+  </div>
+  <!--Fim do topo-->
+
+  <!-- Choose Adopt -->
+  <div class="adopt_wrapped" style="background-color: #FFFFFF;">
+    <div class="container">
+      <div class="row">
+        <!-- titulo e textos Choose-->
+        <div class="col-lg-6">
+          <h3 id="missionChoose">our mission for pet</h3>
+          <h1 id="titleChose">Let's Choose and Adopt your <br> New Lovely Pet</h1>
+        </div>
+        <div class="col-lg-6">
+          <p id="textAdoptsChoose">You need to see some pets in Adoptme. We have the friend that's you need to have. We
+            also have the equipment you need to take care of it.</p>
+        </div>
       </div>
-      <div class="col-lg-6">
-        <h3 id="adpComunity">adoptme community</h3>
-        <h1 id="titleConnect">Connect with adoptme <br> across the country</h1>
-        <p id="textAdoptsConnect">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, error molestiae quasi
-          quibusdam sunt minus. Libero reprehenderit minima obcaecati odio doloremque similique incidunt natus quasi, numquam voluptas quos non aspernatur.</p>
-  
-        <div class="container text-center">
-          <div class="row align-items-start">
-            <div class="col">
-              <div class="first number-counter" finalValue="150">
-                0+
+      <div class="row">
+        <div class="col-lg-6">
+          <!-- imagem cachorro e gato-->
+          <img src="/img/adopt.png" class="img-fluid" id="catDog" alt="foto cachorro e gato">
+        </div>
+        <div class="col-lg-6 pt-3 pb-5">
+          <!-- Conect Titulo e textos-->
+          <h3 id="adpComunity">adoptme community</h3>
+          <h1 id="titleConnect">Connect with adoptme <br> across the country</h1>
+          <p id="textAdoptsConnect">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, error molestiae
+            quasi
+            quibusdam sunt minus. Libero reprehenderit minima obcaecati odio doloremque similique incidunt natus quasi,
+            numquam voluptas quos non aspernatur.</p>
+          <div class="container text-center">
+            <div class="row align-items-start">
+              <div class="col-lg-4 pt-3">
+                <!-- Números Js subindo-->
+                <div class="first number-counter" finalValue="150">
+                  0+
+                </div>
+                proin vestibulum, duis. im dol.
               </div>
-              proin vestibulum, duis. im dol.
-            </div>
-            <div class="col">
-              <div class="second number-counter" finalValue="2000">
-                0+
+              <div class="col-lg-4 pt-3">
+                <div class="second number-counter" finalValue="2000">
+                  0+
+                </div>
+                proin ulduis. isimuim dol.
               </div>
-              proin ulduis. isimuim dol.
-            </div>
-            <div class="col">
-              <div class="third number-counter" finalValue="3000">
-                0+
+              <div class="col-lg-4 pt-3 pb-5">
+                <div class="third number-counter" finalValue="3000">
+                  0+
+                </div>
+                proin vestibulum, duis. im dua.
               </div>
-              proin vestibulum, duis. im dua.
             </div>
           </div>
         </div>
-  
       </div>
     </div>
   </div>
-  
-  <div class="conteiner-carrossel ">
-      <h3 class="stories">ADOPTION PET</h3>
+  <!-- Fim do Choose Adopt -->
+
+  <!--Textos carrossel-->
+  <div class="adopt_wrapped" style="background-color: #FFFFFF;">
+    <div class="container pt-3 pb-5 ">
+      <h3 class="stories_carousel">ADOPTION PET</h3>
       <a name="Adopt_me"></a>
       <h1 class="carousel-title">Adopt the pet that has<br>waited too long</h1>
-      <p class="carousel-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. It ac<br>purus eget. Sit dolor est proin vestibulum, duis. im dolor sit amet,<br>consectetur adipisci.</p>
-  
+      <p class="carousel-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. It ac<br>purus eget. Sit dolor
+        est proin vestibulum, duis. im dolor sit amet,<br>consectetur adipisci.</p>
+
       <div id="carouselExample" class="carousel slide d-none d-sm-block">
-  
+
         <button class="controle-carrossel float-end" data-bs-target="#carouselExample" data-bs-slide="next">
-          <span class="material-icons">arrow_forward_ios</span>
+          <img src="./img/arrow 2.svg" alt="">
         </button>
         <button class="controle-carrossel float-end" data-bs-target="#carouselExample" data-bs-slide="prev">
-          <span class="material-icons">arrow_back_ios</span>
+          <img src="./img/arrow 1.svg" alt="">
         </button>
-  
-  
+        <!--Fim dos textos do carrossel-->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="cards-wrapper">
+              <!--carrossel cards-->
               <div class="card">
                 <div class="image position-relative">
                   <div class="gradiente"></div>
@@ -249,7 +223,7 @@
               </div>
             </div>
           </div>
-  
+
           <div class="carousel-item">
             <div class="cards-wrapper">
               <div class="card">
@@ -300,22 +274,22 @@
                   <p class="card-text">1.2 Years Old</p>
                 </div>
               </div>
-  
-  
+
+
             </div>
           </div>
         </div>
       </div>
-  
+
       <div id="carouselExampleMobile" class="carousel slide d-sm-none">
-  
+
         <button class="controle-carrossel float-end" data-bs-target="#carouselExampleMobile" data-bs-slide="next">
-          <span class="material-icons">arrow_forward_ios</span>
+          <img src="./img/arrow 2.svg" alt="">
         </button>
         <button class="controle-carrossel float-end" data-bs-target="#carouselExampleMobile" data-bs-slide="prev">
-          <span class="material-icons">arrow_back_ios</span>
+          <img src="./img/arrow 1.svg" alt="">
         </button>
-  
+
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="card">
@@ -431,12 +405,14 @@
           </div>
         </div>
       </div>
+    </div>
   </div>
+<!--Fim dos cards e fim da parte do carrossel cards-->
 
-    
- <!-- Parte do  cachorrinho -->
- <a name="Stories"></a>
-<div class="cachorrinho adopt_wrapped">
+
+
+  <!-- Parte do  cachorrinho -->
+  <div class="adopt_wrapped" style="background-color: #FFFFFF;">
     <div class="container">
       <!--Textos dessa área-->
       <div class="row">
@@ -456,7 +432,7 @@
       <!--Botão-->
       <div class="row">
         <div class="d-grid gap-2 col-lg-1 col-sm-6 mx-auto">
-          <button class="sponsor-btn" type="button">Sponsor now</button>
+          <button id="Sponsor" type="button">Sponsor now</button>
         </div>
       </div>
     </div>
@@ -465,21 +441,20 @@
 
 
   <!--Início da parte final da página-->
-<div class="parte-final text-center">
-  <a name="Forum"></a>
+  <div class="container text-center">
     <!--Forum textos-->
-  <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center">
       <div class="col-lg-auto col-md-auto col-sm-auto">
         <h2 class="forum">Forum answer and question</h2>
         <h1 class="adopt-pet">Adopt the pet that has <br>waited too long</h1>
         <p class="text-adopt-final">Lorem ipsum dolor sit amet, consectetur adipiscing elit. It ac <br>purus eget. Sim
           dolor sit amet, consectetur adipisci.</p>
       </div>
-  </div>
+    </div>
     <!--Fim dos textos do forum-->
 
     <!--Inicio dos accordions-->
-  <div class="row">
+    <div class="row">
       <div class="col-lg-6  col-sm-12" id="acordion1">
         <div class="container justify-content-center">
           <div class="content">
@@ -594,8 +569,7 @@
               </p>
             </div>
           </div>
-          <div class="accordion_item " style="background: #FFFFFF; border: 1px solid #E6E6E6;"
-            id="last_accordion">
+          <div class="accordion_item " style="background: #FFFFFF; border: 1px solid #E6E6E6;" id="last_accordion">
             <div class="accordion_header">
               <span class="span-header">
                 <li> What are the requirements for adopting a pet?</li>
@@ -612,8 +586,7 @@
                 voluptas.
             </div>
           </div>
-          <div class="accordion_item " style="background: #FFFFFF; border: 1px solid #E6E6E6;"
-            id="last_accordion">
+          <div class="accordion_item " style="background: #FFFFFF; border: 1px solid #E6E6E6;" id="last_accordion">
             <div class="accordion_header">
               <span class="span-header">
                 <li> What kind of care should I give my pet?</li>
@@ -633,11 +606,11 @@
           </div>
         </div>
       </div>
-  </div>
+    </div>
     <!--Fim dos accordions-->
 
     <!--Footer-->
-  <div class="rodape">
+    <div class="rodape">
       <footer>
         <div class="container text-center">
           <div class="row">
@@ -695,15 +668,14 @@
           </div>
         </div>
       </footer>
-  </div>
+    </div>
     <!--Fim do footer-->
 
 
 
 
-  <script src="./scripts/script.js"></script>
+    <script src="script.js"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 

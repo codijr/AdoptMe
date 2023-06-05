@@ -33,7 +33,6 @@ function VerifyActive(item, content, content_actived) {
 let valueDisplays = document.querySelectorAll(".number-counter");
 let interval = 5000;
 
-// Função para verificar se o elemento está visível no viewport
 function isElementVisible(element) {
   const rect = element.getBoundingClientRect();
   return (
@@ -44,7 +43,6 @@ function isElementVisible(element) {
   );
 }
 
-// Função para animar o contador
 function animateCounter(element) {
   let startValue = 0;
   let endValue = parseInt(element.getAttribute("finalValue"));
@@ -58,7 +56,6 @@ function animateCounter(element) {
   }, duration);
 }
 
-// Observador de interseção para ativar o contador quando o elemento estiver visível
 let observer = new IntersectionObserver(function(entries, observer) {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
@@ -68,7 +65,6 @@ let observer = new IntersectionObserver(function(entries, observer) {
   });
 });
 
-// Observar cada elemento com a classe "number-counter"
 valueDisplays.forEach(valueDisplay => {
   observer.observe(valueDisplay);
 });
